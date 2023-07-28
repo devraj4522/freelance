@@ -24,7 +24,7 @@ const SideMenu = ({ currentUser, handleLogout }) => {
     <div className="stickyCol">
       <Grid>
         <MenuRow href="/" menuName="Home" iconName="home" />
-        <MenuRow href="https://freelance-site-lake.vercel.app" menuName="Social" iconName="react" />
+        <MenuRow href="https://social-iota-nine.vercel.app" menuName="Social" iconName="react" />
         {/* <MenuRow only="mobile tablet" iconName="search" href="/search" /> */}
         {currentUser && (
           <>
