@@ -34,6 +34,8 @@ const SideMenu = ({ currentUser, handleLogout }) => {
                 <MenuRow href="/add" menuName="Add" />
               </>
             )}
+            
+            <MenuRow href="https://workmanagement-tool-4ivz.vercel.app" menuName="setting" />
             <MenuRow href="/orders" menuName="Order" />
             <MenuRow href="/messages" menuName="Messages" />
             <MenuRow onClick={handleLogout} menuName={"Logout"} />
